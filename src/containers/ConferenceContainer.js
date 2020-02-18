@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
-//import request from '../services/conferenceapi';
 import { postPresentation, getPresentations } from '../services/conferenceapi';
-
 
 //const presentations = require('../../data/conferenceData.json');
 
@@ -26,16 +24,12 @@ const ConferenceContainer = () => {
         console.log(results);
         setPresentations(results);
       });
-    // setPresenter(event)
-    //setSearchTerm(query);
   };
 
   useEffect(() => {
     console.log('render');
   }, [presentations]);
 
-  //const PresentationElements = presentations.map((el, i) => {
-  //let presentationSlots = [];
   let presentationElements = [];
   for(let i = 0; i < 6; i++) {
     presentationElements.push(
@@ -100,7 +94,6 @@ const ConferenceContainer = () => {
       </ul>
     </>
   );
-
 };
 
 export default ConferenceContainer;
