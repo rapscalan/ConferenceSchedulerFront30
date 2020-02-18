@@ -1,0 +1,37 @@
+[
+  {
+    "title": "How to use React",
+    "presenter": "Sam Samson",
+    "description": "This will be a presentation on how to use React",
+    "isScheduled": false,
+    "timeSlot": 6
+  },
+  {
+    "title": "How to use Redux",
+    "presenter": "Wiley Wilson",
+    "description": "This will be a presentation on how to use Redux",
+    "isScheduled": false,
+    "timeSlot": 5
+  },
+  {
+    "title": "How to use Git",
+    "presenter": "Jan Janson",
+    "description": "This will be a presentation on how to use Git",
+    "isScheduled": false,
+    "timeSlot": 3
+  },
+  {
+    "title": "How to use Node",
+    "presenter": "Sam Samson",
+    "description": "This will be a presentation on how to use Node",
+    "isScheduled": false,
+    "timeSlot": 4
+  },
+  {
+    "title": "How to use Mongo",
+    "presenter": "Freddie Frederickson",
+    "description": "This will be a presentation on how to use Mongodb",
+    "isScheduled": false,
+    "timeSlot": 2
+  }
+]
