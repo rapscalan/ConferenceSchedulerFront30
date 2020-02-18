@@ -25,3 +25,8 @@ export const getPresentations = () => {
     .then(res => res);
 };
 
+export const deleteAPresentation = (id) => {
+  return request('id', 'DELETE')
+    .then(res => res);
+};
+
